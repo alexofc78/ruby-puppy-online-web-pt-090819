@@ -23,7 +23,7 @@ end
   
   def save
     @@all << dog
- #   self.save
+ #  self.save
   end
   
   def name
