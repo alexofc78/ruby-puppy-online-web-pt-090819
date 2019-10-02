@@ -16,12 +16,8 @@ class Dog
   end
   
   def self.print_all
-    @@all.each de |dog|
-  end
-  
-  def self.print_all
     @@all.each do |dog|
-      ## now inside this block we want to print the dog's name
+      print_all
     end
 end
   
